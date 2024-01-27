@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLORER</title>
+    <link rel="stylesheet" href="explorer.css">
+</head>
+<body>
+    <section class="find">
+        <div>
+            <h2>Find your next tour!</h2>
+            <form class="search-form">
+                <input type="text" name="destination" placeholder="Where would you like to go?" list="destinations">
+                <datalist id="destinations">
+                    <option value="London">
+                    <option value="Paris">
+                    <option value="New York">
+                    <option value="Tokyo">
+                    <option value="Sydney">
+                </datalist>
+                <input type="date" name="date" placeholder="When would you like to go?">
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <br>
+
+    <div class="destination-container">
+        <div class="destination">
+            <img src="image/bridge-sunset-london-uk.jpg" alt="london">
+            <h3>London</h3>
+            <p>Explore the historic city of London with its iconic landmarks and rich cultural heritage. Enjoy breathtaking sunsets over the famous bridges. Travel cost: 45K per person.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+
+        <div class="destination">
+            <img src="image/india.jpg" alt="india">
+            <h3>India</h3>
+            <p>Experience the vibrant colors and diverse culture of India. From ancient temples to bustling markets, India has something for everyone. Travel cost: 30K per person.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+
+        <div class="destination">
+            <img src="image/maldives-island.jpg" alt="maldives">
+            <h3>Maldives</h3>
+            <p>Relax in the pristine beaches of the Maldives. Enjoy the crystal-clear waters and luxurious resorts on this tropical paradise. Travel cost: 75K per person.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+
+        <div class="destination">
+            <img src="image/mountain-sunset-japan.jpg" alt="japan">
+            <h3>Japan</h3>
+            <p>Discover the serenity of Japan with its beautiful mountain landscapes and traditional culture. Experience the mesmerizing sunset views. Travel cost: 55K per person.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+
+        <div class="destination">
+            <img src="image/paris.jpg" alt="paris">
+            <h3>Paris</h3>
+            <p>Indulge in the romantic atmosphere of Paris, known as the "City of Love." Visit iconic landmarks and savor exquisite cuisine. Travel cost: 60K per person.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+    </div>
+
+</body>
+</html>

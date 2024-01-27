@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(image/b2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+
+header {
+    color: #ff7200;
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#ff7200;
+}
+
+nav a:hover {
+    text-decoration: orange;
+}
+
+nav .active a {
+    text-decoration: orange;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color:  white;
+    
+}
+
+footer {
+    color: #ff7200;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.mail{
+    color: white;
+}
+.num{
+    color: white;
+}
